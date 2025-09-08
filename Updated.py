@@ -74,7 +74,7 @@ data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
 # Training Arguments
 # =============================
 training_args = Seq2SeqTrainingArguments(
-    output_dir="Eri_Intern/CheckPoints",
+    output_dir="Eri_Intern/Updated_CheckPoints",
     evaluation_strategy="epoch",
     save_strategy="epoch",
     learning_rate=2e-5,
